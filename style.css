@@ -1,0 +1,113 @@
+
+body{
+    background-color: #efefef;
+}
+.container{
+    display: flex;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+   
+}
+.left{
+    width: 33%;
+    margin-left: 56px;
+    margin-right: 56px;
+    
+}
+
+.img-left{
+    width: 306px;
+    height: 106px;
+    margin-left: -28px ;
+    margin-right: -28px ;
+}
+
+.p-left{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    width: 500px;
+    margin-top: -12px;
+}
+
+.right{
+    width: 374px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow:0 10px 15px -3px rgb(90, 89, 89), 0 4px 6px -4px rgb(73, 73, 73), 0 4px 6px -5px rgb(73, 73, 73), 0 4px 6px -4px rgb(73, 73, 73);
+    border-radius: 15px;
+    border-radius: 15px;
+    padding: 12px;
+    position: relative;
+}
+input{
+    height: 3rem;
+    width: 352px;
+    margin-top: 15px;
+    font-size: larger;
+    padding-left: 15px;
+    border-radius: 6px;
+    border: 2px solid rgb(206, 205, 205);
+
+}
+.btn{
+    background-color: #1877f2;
+    margin-top: 15px;
+    height: 3rem;
+    width: 373px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+}
+.btn:hover{
+    background-color: #105cc0;
+}
+span{
+    margin-top: 15px;
+    text-align: center; 
+    color: #1877f2;
+}
+span:hover{
+    text-decoration: underline;
+}
+
+.btn-g{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    width: 192px;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.btn-g:hover{
+    background-color: #379b23;
+}
+hr{
+    margin-top:8px ;
+    margin-bottom:8px ;
+}
+
+.p_m{
+    position: absolute;
+    bottom: -48px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.s_m{
+    font-weight: bold;
+    color: black;
+}
